@@ -1,0 +1,93 @@
+Appearance
+    - Workspaces
+        - Primary Workspace Count
+        - Static / Dynamic
+    - TopBar
+        - Launcher 
+            - Show / Hide
+            - Position: Left
+        - Workspaces
+            - Show / Hide
+            - Position: Left
+            - Unused Workspaces: Show / Hide
+        - Active Application in Current Workspace
+            - Show / Hide
+            - Position: Middle
+        - Settings
+            - Show / Hide
+            - Position: Right
+        - Sound, Network, Bluetooth & Power
+            - Show / Hide
+            - Position: Right
+        - Date & Time
+            - Show / Hide
+            - Position: Right
+    - Window
+        - Rounded Corners: False
+        - Tile Windows: True
+            - Floating Window Exceptions
+        - Show Window Title: False
+            - Close Button 
+            - Maximize Button
+        - Active Window Hint: True
+        - Window Gaps: 0
+    - Background
+        - Desktop
+            - Static (Select) / Dynamic (Random)
+            - Adjustment
+        - Lock Screen
+            - Static (Select) / Dynamic (Random)
+            - Adjustment
+    - Theme
+        - Shell
+        - Window
+        - Icons
+        - Cursor
+        - Sound
+    - Fonts
+
+Network 
+Bluetooth
+Applications
+    - Default Applications
+    - Startup Applications
+Power
+Devices
+    - Sound 
+    - Display
+    - Keyboard / Touchpad
+    - Mouse
+    - Printer
+    - Removable Drives
+Utilities
+    - Date & Time
+    - Location
+    - Weather
+
+=========================
+Privacy
+    - Connectivity
+    - Location Services
+    - Thunderbolt 
+    - File History & Trash
+    - Screen 
+Online Accounts
+Firmware
+Region & Language
+Sharing
+Accessibility
+Users
+OS Upgrade & Recovery
+Support
+About
+
+=====================
+Color -> Display
+Notifications -> Applications
+
+=====================
+distribution
+display render(x.org / wayland)
+display manager (GDM / LightDM / SDDM)
+enable display manager (sudo systemctl enable <dm>) (sudo systemctl set-default graphical.target)
+window manages (i3 / bspwm / mutter / dwm / awesomewm / icewm / sway / herbstluftwm)

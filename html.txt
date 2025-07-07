@@ -1,0 +1,25 @@
+body tag		<body bgcolor="" background="" text="" topmargin="" leftmargin="">
+----------------------------------------------------------------------------------------
+heading 		<h1> <h2> <h3> <h4> <h5> <h6>
+paragraph 		<p>
+bold tag 		<b> <strong>
+italics tag 		<i> <em>
+underline tag 		<u>
+mark tag		<mark>
+abbreviation tag 	<abbr>
+strike tag		<s> <del>
+break tag 		<br>
+no break tag		<nobr>
+big tag 		<big>
+small tag 		<small>
+horizontal ruler tag 	<hr>
+subscript tag 		<sub>
+superscript tag 	<sup>
+pre tag 		<pre>
+comment tag		<!-- -->
+anchor tag 		<a href="" target="">
+image tag 		<img src="" alt="" height="" width="" border="" align="">
+--------------------------------------------------------------------------------------
+<header>	<nav>
+<main>		<section> <article> <aside>
+<footer>

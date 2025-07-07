@@ -1,0 +1,52 @@
+computer_architecture
+    - Von_Newmann_Architecture
+    - Non_Von_Newmann_Architecture
+        - Havard_Architecture
+        - Modified_Havard_Architecture
+
+cache_memory_mapping_methods
+    - direct_memory_mapping
+    - associative_mapping
+    - set_associative_mapping
+    - cache_memory_mapping
+
+cache_design
+    - block_placement : Where to place the main memory block in the cache?
+    - block_identification : How to find the main memory block in the cache?
+    - block_replacement : During a cache miss, how to choose which entry to replace from the cache?
+        - cache_miss
+            - capacity_miss : When the cache size is full?
+            - compulsory_miss : When the main memory block is haven't accessed yet
+            - conflict_miss : When the cache block is occupied by some other main memory block
+        - block_replacement_policies
+            - random_replacement
+            - FIFO & LIFO
+            - recency based policies 
+                - MRU (most recently used) - evicts most recently used block
+                - LRU (least recently used) - evicts least recently used block
+                - PLRU (pseudo least recently used) - 
+            - frequency based policies
+                - LFU (least frequently used) - evicts least frequently used block
+            - Belady's Optimal Algorithm [optimal]
+    - ultimate_flowchart
+        - write_hit
+            - write_through
+            - write_back / write_deffered
+        - write_miss
+            - write_allocate
+            - no_write_allocate
+    - cache_coherency
+        - states
+            - modified
+            - shared
+            - invalid
+            - exclusive
+            - owned
+            - forward
+        - protocols
+            - snooping_based_protocol / bus_based_protocol
+                - write_update
+                - write_invalidate
+            - directory_based_protocol
+
+

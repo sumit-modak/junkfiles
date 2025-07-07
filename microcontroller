@@ -1,0 +1,38 @@
+pic
+avr
+stm8
+atmega328 (arduino nano)
+esp8266
+stm32
+rp2040 (raspberry pi pico)
+esp32
+
+a6
+a9
+a9g
+
+------------------
+arduino uno
+raspberry pi model A
+raspberry pi model B
+sparkfun redboard
+arduino pro
+arduino mega 2560
+arduino pro mini
+arduino pro micro
+micro view
+teensy 3.1
+arduino yun
+
+--------------------
+wifi
+bluetooth
+gps
+gsm(sms, call)
+gprs
+
+mic
+speaker
+camera
+display
+torch

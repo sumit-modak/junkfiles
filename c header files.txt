@@ -1,0 +1,211 @@
+C/C++ Header File
+
+#include<stdio.h>  (Standard input-output header)----------------------------------
+
+printf()	This function is used to print the character, string, float, integer, octal and hexadecimal values onto the output screen
+scanf()		This function is used to read a character, string, numeric data from keyboard.
+fopen()		All file handling functions are defined in stdio.h header file
+fclose()	closes an opened file
+
+getc()		It reads character from file
+gets()		It reads line from keyboard
+getchar()	It reads character from keyboard
+puts()		It writes line to o/p screen
+putchar()	It writes a character to screen
+clearerr()	This function clears the error indicators
+getw()		reads an integer from file
+putw()		writes an integer to file
+f getc()	reads a character from file
+putc()		writes a character to file
+f putc()	writes a character to file
+f gets()	reads string from a file, one line at a time
+f puts()	writes string to a file
+f eof()		finds end of file
+f getchar	reads a character from keyboard
+f getc()	reads a character from file
+f printf()	writes formatted data to a file
+f scanf()	reads formatted data from a file
+f getchar	reads a character from keyboard
+f putchar	writes a character from keyboard
+f seek()	moves file pointer position to given location
+SEEK_SET	moves file pointer position to the beginning of the file
+SEEK_CUR	moves file pointer position to given location
+SEEK_END	moves file pointer position to the end of file.
+f tell()	gives current position of file pointer
+rewind()	moves file pointer position to the beginning of the file
+putc()		writes a character to file
+sprint()	writes formatted output to string
+sscanf()	Reads formatted input from a string
+remove()	deletes a file
+fflush()	flushes a file
+
+#include<string.h> (String header)---------------------------------------
+
+void *memchr (const void *, int, size_t)
+int memcmp (const void *, const void *, size_t)
+void *memcpy (void *, const void *, size_t)
+void *memmove (void *, const void *, size_t)
+void *memset (void *, int, size_t)
+
+char *strcat (char *, const char *)				Appends one string at the end of another
+int strcmp (const char *, const char *)				Compares two strings
+char *strcpy (char *, const char *)				Copies a string into another
+size_t strlen (const char *)					calculates the length of string
+
+char *strchr (const char *, int)				Finds the first occurrence of a given character in a string
+char *strrchr (const char *, int)				Finds the last occurrence of a given character in a string
+char *strstr (const char *, const char *)			Finds the first occurrence of a given string in another string
+size_t strcspn (const char *, const char *)			Calculates the initial length of a string, not containing any character of the other string
+size_t strspn (const char *, const char *)			Calculates the initial length of a string, containing the only characters of the other string
+char *strpbrk (const char *, const char *)			Finds the first occurrence of any of the characters of a string in another string
+char *strtok (char *, const char *)				splits a string into token
+
+char *strncat (char *, const char *, size_t)			Appends first n characters of a string at the end of another
+int strncmp (const char *, const char *, size_t)		Compares first n characters of two strings
+char *strncpy (char *, const char *, size_t)			Copies first n characters of one string into another
+
+int strcoll (const char *, const char *)
+char *strerror (int)
+
+size_t strxfrm (char *, const char *, size_t)
+
+char *_strerror (const char *)
+void *_memccpy (void *, const void *, int, size_t)
+int _memicmp (const void *, const void *, size_t)
+char *_strdup (const char *)
+int _strcmpi (const char *, const char *)
+int _stricoll (const char *, const char *)
+char *_strlwr (char *)
+char *_strnset (char *, int, size_t)
+char *_strrev (char *)
+char *_strset (char *, int)
+char *_strupr (char *)
+void _swab (const char *, char *, size_t)
+
+int _strncoll(const char *, const char *, size_t)
+int _strnicoll(const char *, const char *, size_t)
+
+void *memccpy (void *, const void *, int, size_t)
+int memicmp (const void *, const void *, size_t)
+char *strdup (const char *)
+int strcmpi (const char *, const char *)
+int stricmp (const char *, const char *)
+int stricoll (const char *, const char *)
+char *strlwr (char *)
+int strnicmp (const char *, const char *, size_t)
+char *strnset (char *, int, size_t)
+char *strrev (char *)
+char *strset (char *, int)
+char *strupr (char *)
+
+void swab (const char *, char *, size_t)
+
+char *strnlen (const char *, size_t)
+
+int strerror_s (char *, size_t, int)
+
+int strerror_s (char *__buf, size_t __len, int __err)
+
+#include<conio.h> (Console input-output header)-------------------------------------------
+
+clrscr()		 This function is used to clear the output screen.
+getch()			 It reads character from keyboard
+getche()		 It reads character from keyboard and echoes to o/p screen
+textcolor()		 This function is used to change the text color
+textbackground()	 This function is used to change text background
+
+#include<stdlib.h> (Standard library header)------------------------------------------------
+
+malloc()	    This function is used to allocate space in memory during the execution of the program.
+calloc()	    This function is also like malloc () function. But calloc () initializes the allocated memory to zero. But, malloc() doesn’t
+realloc()	    This function modifies the allocated memory size by malloc () and calloc () functions to new size
+free()		    This function frees the allocated memory by malloc (), calloc (), realloc () functions and returns the memory to the system.
+abort()		    It terminates the C program
+exit()		    This function terminates the program and does not return any value
+system()	    This function is used to execute commands outside the C program.
+getenv()	    This function gets the current value of the environment variable
+setenv()	    This function sets the value for environment variable
+putenv()	    This function modifies the value for environment variable
+perror()	    This function displays most recent error that happened during library function call.
+delay()		    This function Suspends the execution of the program for particular time
+
+atoi()		    Converts string to int
+atol()		    Converts string to long
+atof()		    Converts string to float
+strtod()	    Converts string to double
+strtol()	    Converts string to long
+
+rand()		    This function returns the random integer numbers
+abs()		    This function returns the absolute value of an integer . The absolute value of a number is always positive. Only integer values are supported in C.
+div()		    This function performs division operation
+
+#include<math.h> (Math header )-------------------------------------------
+
+sqrt(x)		square root of x
+exp(x)		exponential (ex)
+log(x)		natural logarithm of x
+log10(x)	logarithm of x (base 10)
+fabs(x)		absolute value of x
+ceil(x)		rounds x to smallest integer not less than x
+floor(x)	rounds x to largest integer not greater than x
+pow(x,y)	x raised to power y (xy)
+fmod(x)		remainder of x/y as floating-point number
+sin(x)		sine of x (x in radian)
+cos(x)		cosine of x (x in radian)
+tan(x)		tangent of x (x in radian)
+
+#include<ctype.h>(Character type header)-----------------------------------
+
+isalnum()	Checks whether character is alphanumeric
+isxdigit()	Checks whether character is hexadecimal
+iscntrl()	Checks whether character is a control character
+isprint()	Checks whether character is a printable character
+ispunct()	Checks whether character is a punctuation
+isgraph()	Checks whether character is a graphical character
+
+isalpha()	checks whether character is alphabetic
+isdigit()	checks whether character is digit
+islower()	Checks whether character is lower case
+isupper()	Checks whether character is upper case
+isspace()	Checks whether character is space
+tolower()	Checks whether character is alphabetic & converts to lower case
+toupper()	Checks whether character is alphabetic & converts to upper case
+
+#include<time.h>(Time header)---------------------------------------------------
+
+setdate()	This function used to modify the system date
+getdate()	This function is used to get the CPU time
+clock()		This function is used to get current system time
+time()		This function is used to get current system time as structure
+difftime()	This function is used to get the difference between two given times
+strftime()	This function is used to modify the actual time format
+mktime()	This function interprets tm structure as calendar time
+localtime()	This function shares the tm structure that contains date and time informations
+gmtime()	This function shares the tm structure that contains date and time informations
+ctime()		This function is used to return string that contains date and time informations
+asctime()	Tm structure contents are interpreted by this function as calendar time. This time is converted into string.
+
+#include<assert.h> (Assertion header)
+
+#include<locale.h> (Localization header)
+
+#include<signal.h> (Signal header)
+
+#include<setjmp.h> (Jump header)
+
+#include<stdarg.h> (Standard argument header)
+
+#include<errno.h> (Error handling header)
+
+#include<stdbool.h>
+
+#include<varargs.h>
+
+-----------------------------------------------------------------------------------------------------------------
+
+List of C++ Header File
+Following are some C++ header files which are not supported in C-
+
+#inlcude<iostream> (Input Output Stream) – Used as a stream of Input and Output.
+#include<iomanip.h> (Input-Output Manipulation) – Used to access set() and setprecision().
+#include<fstream.h> (File stream) – Used to control the data to read from a file as an input and data to write into the file as an output.

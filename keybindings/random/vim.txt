@@ -1,0 +1,74 @@
+--------------------------------
+i               enters insert mode 
+a               enters insert mode (moves the cursor right by one)
+o               enters insert mode (moves the cursor to new line below)
+I               enters insert mode (moves the cursor to the beginning of the line)
+A               enters insert mode (moves the cursor to the end of the line)
+O               enters insert mode (moves the cursor to new line above)
+v               enters visual mode
+V               enters visual line mode
+
+------------------------------- <count> movements
+h               move left
+j               move down
+k               move up
+l               move right
+
+w               move right by word start (stops at punctuations)
+W               move right by word start
+e               move right by word end (stops at punctuations)
+E               move right by word end 
+b               move left by word start(stops at punctuations)
+B               move left by word start
+
+0               beginning of line
+$               end of line
+gg              start of file
+G               end of file
+M               goto mid of file
+
+t <char>        moves to the char but not on
+f <char>        moves on the char
+%               toggle bracket ends
+
+-------------------------------
+<count> u               undo 
+<count> ctrl + r        redo 
+y                       copy 
+d                       delete
+<count> p               paste below 
+<count> P               paste above
+<count> yy              copies line 
+<count> dd              deletes line
+<count> cc              changes line 
+D                       delete till end of line
+C                       change till end of line
+Y                       copies full line
+r <char>                replaces character 
+R <string>              replaces until user stops it
+? <string>              finds in file 
+/ <string>              finds in file
+
+------------------------------ advanced
+<cmd> iw            <cmd> whole word
+<cmd> aw            <cmd> whole word and next char 
+<cmd> i"            <cmd> whole string within double quote
+<cmd> i(            <cmd> whole text within parentheses
+
+------------------------------ other 
+>>                  indent 
+<<                  outdent
+*                   next occurance
+n                   next occurance
+#                   previous occurance
+N                   previous occurance
+zz                  centers view
+
+------------------------------commands
+:set number 
+:set relativenumber
+:set mouse=a 
+:set tabstop=4
+:set autoindent
+:set shiftwidth=4
+:colorscheme <>

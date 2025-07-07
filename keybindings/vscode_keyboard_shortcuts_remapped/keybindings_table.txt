@@ -1,0 +1,18 @@
+HOME = SHIFT + LEFT_ARROW
+END = SHIFT + RIGHT_ARROW 
+CTRL + HOME = SHIFT + UP_ARROW
+CTRL + END = SHIFT + DOWN_ARROW
+
+[CTRL FOR SELECT NOT SHIFT]
+SHIFT + UP_ARROW = CTRL + UP_ARROW
+SHIFT + DOWN_ARROW = CTRL + DOWN_ARROW
+SHIFT + LEFT_ARROW = CTRL + LEFT_ARROW
+SHIFT + RIGHT_ARROW = CTRL + RIGHT_ARROW
+
+                -----SHIFT----- -----------CTRL------------ -----CTRL+SHIFT----- --------ALT-------- --------CTRL+ALT-------- -----SHIFT+ALT-----
+UP_ARROW       |cursorTop      |cursorColumnSelectUp       |cursorTopSelect     |moveLineUp         |addCursorAbove          |copyLineUp         |
+DOWN_ARROW     |cursorBottom   |cursorColumnSelectDown     |cursorBottomSelect  |moveLineDown       |addCursorBelow          |copyLineDown       |
+LEFT_ARROW     |cursorHome     |cursorColumnSelectLeft     |cursorHomeSelect    |cursorWordLeft     |cursorWordLeftSelect    |shrinkSelection    |
+RIGHT_ARROW    |cursorEnd      |cursorColumnSelectRight    |cursorEndSelect     |cursorWordEndRight |cursorWordRightSelect   |expandSelection    |
+PAGE_UP        |scrollPageUp   |cursorColumnSelectPageUp   |moveEditorLeft      |scrollLineUp       |editorMoveNextGroup     |openNextEditor     |
+PAGE_DOWN      |scrollPageDown |cursorColumnSelectPageDown |moveEditorRight     |scrollLineDown     |editorMovePreviousGroup |openPreviousEditor |

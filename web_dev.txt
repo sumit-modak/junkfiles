@@ -1,0 +1,33 @@
+---------------------------------------- package_manager
+python - pip
+rust - cargo 
+node.js - npm
+ruby - bundler, rubygems
+java - maven
+php - composer
+
+---------------------------------------- backend_frameworks
+java_script - NodeJS, ExpressJS
+python - Django, Flask, FastAPI
+ruby - Ruby_on_Rails
+java - Spring, ActiveJ
+php - Laravel
+rust - Actix, Axum, Rocket, Tide
+go - Fiber
+
+---------------------------------------- SQL databases
+MySQL
+PostgreSQL
+SQLite
+
+---------------------------------------- NOSQL databases
+MongoDB
+
+----------------------------------------
+additional_tech:
+    - image_database : BlobStorage(AWS S3) + CDN (AWS Cloudfront)
+    - search_database : ElasticSearch
+    - improving_performance : Cache(redis)
+    - analytical_database : Snowflake
+    - job_queue : RabbitMQ, Kafka
+

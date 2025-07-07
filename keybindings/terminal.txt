@@ -1,0 +1,35 @@
+cut 
+copy                    ctrl + shift + c
+paste                   ctrl + shift + v
+delete_left             bkspc
+
+
+
+
+search_command_history  ctrl + r
+
+
+previous_command        up_arrow
+next_command            down_arrow
+move_right              right_arrow
+move_left               left_arrow
+
+start_of_line           ctrl + a
+end_of_line             ctrl + b
+
+
+
+---------------------
+
+auto_complete           tab
+keyboard_interupt       ctrl + c
+clear_screen            ctrl + l
+increase font size      ctrl + shift + =
+decrease font size      ctrl + -
+
+Ctrl+D: Send an end-of-file (EOF) character to the current command
+Ctrl+K: Delete the text from the cursor position to the end of the line
+Ctrl+U: Delete the text from the cursor position to the beginning of the line
+Ctrl+W: Delete the word to the left of the cursor
+Ctrl+Z: Suspend the current command and put it in the background
+

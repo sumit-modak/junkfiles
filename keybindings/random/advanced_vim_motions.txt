@@ -1,0 +1,14 @@
+vi{                    selects everything in the bracket excluding bracket
+va{                    selects everything in the bracket including bracket
+dap                    deletes a paragraph and the newline
+dip                    deletes a paragraph
+viw                    selects word 
+vaw                    selects word and next char
+yt <char>              selects upto the given char
+VY                     yanks a line
+yy                     yanks a line
+ctrl + d               page down 
+ctrl + u               page up
+r <char>               replace char and puts you in insert mode
+R <char>               replace char
+ctrl + v               visual block mode

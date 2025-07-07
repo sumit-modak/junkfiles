@@ -1,0 +1,42 @@
+theory of computation
+compiler design
+numerical methods
+probablity and statictics
+discrete mathematics
+-------------------------------
+data structures and algorithims
+database management systems
+
+analog electronics
+digital electronics
+computer architecture
+microprocessors and microcontrollers
+operating system
+computer networks
+linear algebra
+---------------------------------
+
+cognitive science
+cloud computing
+parallel and distributed algorithims
+internet of things
+embedded systems
+data mining and data warhousing
+blockchain
+
+---------------------------------------
+cyber security
+ethical hacking
+cryptography
+---------------------------------------
+machine learning
+artificial intelligence
+deep learning
+data science
+---------------------------------------
+game development
+app development
+computer graphics
+web development
+software engineering
+---------------------------------------

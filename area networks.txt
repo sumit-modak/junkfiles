@@ -1,0 +1,19 @@
+PAN:Personal Area Network
+-Bluetooth
+-Infrared
+-NFC
+-USB Cables
+
+LAN:Local Area Network
+-Ethernet LAN
+
+WLAN:Wireless Local Area Network
+
+CAN:Campus Area Network
+
+MAN:Metropolitian Area Network
+-Optical Fibre
+
+SAN:Storage Area Network
+
+WAN:Wide Area Network

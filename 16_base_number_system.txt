@@ -1,0 +1,19 @@
+7-segment display based 
+    vertical    horizontal
+0 ~ bottom      left 
+1 ~ top         right
+
+00 = bottom_left
+01 = bottom_right
+10 = top_left
+11 = top_right
+
+10 -> 00    top_left -> bottom_left
+10 -> 01    top_left -> bottom_right
+11 -> 00    top_right -> bottom_left
+11 -> 01    top_right -> bottom_right
+
+ _         _    _   
+| |  |_    _|    |  
+|_|   _|  |     _|  
+

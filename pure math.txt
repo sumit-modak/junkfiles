@@ -1,0 +1,7 @@
+abstract algebra
+real analysis
+number theory
+category theory
+order theory
+representation theory
+graph theory

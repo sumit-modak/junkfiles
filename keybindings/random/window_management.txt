@@ -1,0 +1,28 @@
+fn    mod     alt    ctrl     space    alt    ctrl    rc
+
+------------------------------- window_management
+quit_selected_window
+minimize_selected_window
+open_selected_new_window
+open_launcher
+open_workspaces
+
+fullscreen_screenshot
+window_screenshot
+
+open_default_terminal
+open_default_text_editor
+open_default_file_explorer
+open_default_web_browser
+
+scale_down_window
+scale_up_window
+move_window_up
+move_window_down
+move_window_right
+move_window_left
+
+
+NEW_TAB                QUIT_CURRENT_TAB
+SWITCH_PREVIOUS_TAB    SWITCH_NEXT_TAB
+MOVE_TAB_LEFT          MOVE_TAB_RIGHT

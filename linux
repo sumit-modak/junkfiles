@@ -1,0 +1,13 @@
+bin		    link to /usr/bin
+sbin		link to /usr/sbin
+home		where all user directories are located
+dev		    files of all devices
+usr/bin		contains binary files 
+usr/sbin 	contains binary files of super user
+boot 		contains boot files
+tmp		    contains temporary files(log files, cache files)
+root 		administrator
+etc		    contain settings files
+media		mount drives
+mnt		    explicitly mount drives
+

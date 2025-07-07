@@ -1,0 +1,10 @@
+// for username
+let re = Regex::new(r"^[A-Z|a-z][[:alnum:]]*[-|_][[:alnum:]]+[-|_][[:alnum:]]+_?$").unwrap();
+//                                         ^^^^^^^^^^^^^^^^^-----------------
+
+// for name
+// let re = Regex::new(r"^\s*[[:alpha:]]{2,}\s*$").unwrap();
+
+// for email
+// let re = Regex::new(r"^[a-z][a-z|0-9]{5,}@[a-z|-]\.[a-z]$").unwrap();
+//                       incomplete

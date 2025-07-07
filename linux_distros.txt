@@ -1,0 +1,93 @@
+alpine linux
+arch linux
+arco
+artix
+debian gnu/linux
+devuan
+ubuntu
+linux mint
+fedora linux
+alma linux
+rocky linux
+nix os
+qubes os
+tails os
+-----------------------------------------------------------
+#debian-based
+-ubuntu
+-pop OS
+-elementary os
+
+#arch-based
+-manjaro OS
+
+#fedora-based
+-centOS
+-openSUSE
+-red hat
+--------------
+gentoo
+linux mint
+kali linux
+zorin os
+deepin
+archman os
+lubuntu os
+kde neon
+solus
+slackware
+xubuntu
+slackel
+pure os
+
+--------------------------------------------------------------------------------
+package manager = apt / pacman / dnf / yum / snap / portage / zypper / 
+                  homebrew / git / pip
+
+display manager = GDM / SDDM / LightDM / mutter / LXDM / ly / XDM / MDM 
+
+desktop environment =   KDE / GNOME / XFCE / MATE / Cinnamon / LXQt / Deepin / GNOME Shell
+                        Unity / Pantheon / KDE Plasma 5 / LXDE / pluma / GNOME 2
+
+window manager = (x.org / X11 / wayland)
+                 enlightenment / fvwm / kwin / sawfish / twm / wmaker / awesome
+                 fluxbox / xmonad / openbox / dwm / icewm  / ratpoison / xfce / jwm
+                 metacity / compiz / motif wm / spectrwm / bspwm / stumpwm / wmii
+                 herbsluftwm / ion / sway / wm2
+
+terminal emulator = alacritty / termite / terminator / xterm / gnome terminal 
+                    mate terminal / konsole / 
+
+web browser = firefox / microsoft edge / google chrome / brave / opera / safari
+
+terminal text editor = vim / nano / editor / pico / micro / 
+
+text editor = vscode / sublime text / geany / eclipse / atom / gedit / notepad
+
+--------------------------------------------------------------------------------linux distros
+                    desk_env     display_manager    window_manager
+debian
+ubuntu              gnome
+kubuntu             kde
+linux mint
+elementary os
+pop os              cosmic
+
+endeavour os
+manjaro os
+arch linux
+garuda linux
+
+fedora
+
+gentoo
+
+opensuse
+~~~~~~~~~~~~~
+kali linux
+parrot os
+black arch linux
+xubuntu
+lubuntu
+zorin os
+cent os

@@ -1,0 +1,292 @@
+MotherBoards
+├── Chipsets
+│   ├── Intel vs AMD
+│   ├── North Bridge: Memory Controller Hub (MCH)
+│   │   └── High data transfer devices: High Speed GPU, RAM 
+│   ├── South Bridge: I/O Controller Hub (ICH)
+│   │   └── Secondary Controllers: I/O Devices, HDD, USB, Ethernet, PATA, SATA, Audio Codec
+│   └── DMI (Direct Media Interface) = Connects north bridge and south bridge
+├── Buses
+│   ├── Front Side Bus (Intel)
+│   ├── Hyper Transport Bus (AMD)
+│   ├── Memory Bus = The bus which connects to the memory (RAM)
+│   └── Expansion Bus = All other buses which allows us to expand the capabilities of motherboards
+│       ├── ISA: Industry Standerd Architecture
+│       ├── PCI: Peripheral Component Interconnect
+│       ├── PCIx: PCI Extended 
+│       ├── PCIe: PCI Express 
+│       ├── mini-PCI
+│       │   └── for Laptops
+│       ├── AGP: Accelerated Graphics Port 
+│       │   └── for Displays and Graphics
+│       ├── AMR & CNR 
+│       │   └── for Audio Cards and Modems
+│       ├── PCMCIA: Personal Computer Memory Card International Association
+│       └── Storage Technology
+│           ├── PATA / IDE = 40-pin bus
+│           └── SATA 
+├── Serial = Sending one bit of data at a time
+├── Parallel = Sending multiple bits of data at same time
+├── Lane = Two serial wires that enable sending and receiving of data simultaneously
+├── I/O Ports
+│   ├── Older Ports
+│   │   ├── PS/2
+│   │   │   └── for Mouse and Keyboards
+│   │   ├── Serial 
+│   │   │   ├── DB9: 9-pin serial = for external modems
+│   │   │   └── DB15: 15-pin serial = for joystick or gaming ports
+│   │   ├── Parallel
+│   │   │   └── DB25: 25-pin parallel = for printers
+│   │   ├── RJ11
+│   │   │   └── for Phone and Modem
+│   │   ├── RJ45
+│   │   │   └── for Ethernet
+│   │   ├── Audio(1/8") Cluster
+│   │   │   └── for Mic, Speaker or LineIn
+│   │   └── SVGA
+│   │       └── 15-pin 3rows = for graphics
+│   └── Newer Ports
+│       ├── USB
+│       ├── DVI
+│       │   └── for graphics
+│       ├── HDMI Connector
+│       │   └── for TVs
+│       ├── IEEE 1394a (Firewire)
+│       │   └── for camera
+│       ├── Optical Audio
+│       ├── eSATA: External Serial ATA
+│       │   └── for external hard drives
+│       ├── Display Port 
+│       │   └── for graphics
+│       └── SD / Multimedia Cards
+├── Adapters and Converters
+│   ├── DVI to HDMI
+│   ├── USB-A to USB-B
+│   ├── USB to Ethernet
+│   ├── DVI to VGA
+│   ├── ThunderBolt to DVI
+│   ├── PS/2 to USB
+│   └── HDMI to VGA
+├── Form Factors
+│   ├── ATX: Advanced Technology Extended
+│   │   ├── standerdATX
+│   │   └── microATX
+│   ├── ITX
+│   │   ├── miniITX
+│   │   ├── nanoITX
+│   │   └── picoATX
+│   └── BTX: Balanced Technology Extended
+├── MotherBoard Firmware
+│   ├── BIOS(Basic Input-Output System) 
+│   │   ├── About: The BIOS is stored on the BIOS chip on the motherboard
+│   │   │          BIOS configuration is stored on CMOS chip which is volatile and hence requires a CMOS battery
+│   │   │          On modern motherboards, the CMOS chip is integrated with the RTC on the south bridge chipset
+│   │   │          User MBR (Master Boot Record) partitioning scheme
+│   │   ├── POST(Power On Self Test) = When a computer is turned on, the BIOS starts by performing a 
+│   │   │          series of self-tests to check the hardware components connected to the system. This 
+│   │   │          process is called the Power-on Self-Test (POST). It checks the CPU, memory, storage 
+│   │   │          devices, and other essential components.
+│   │   ├── Boot Loader = Once the POST is successful, the BIOS searches for a boot loader program in 
+│   │   │          the boot sector of the primary storage device. This program contains instructions 
+│   │   │          on how to load the operating system into memory
+│   │   ├── Initializing the hardware = The BIOS checks and initializes all the hardware components 
+│   │   │          attached to the system, including the processor, memory modules, hard drives, 
+│   │   │          optical drives, and other peripherals.
+│   │   ├── Providing system access = The BIOS allows the user to access the system setup utility 
+│   │   │          through the BIOS setup menu by pressing a designated key during boot-up. This setup 
+│   │   │          utility allows users to configure various system parameters, such as date and time, 
+│   │   │          boot order, security settings, and power management options.
+│   │   ├── Executing the boot process = After initializing the hardware and loading the boot loader, 
+│   │   │          the BIOS jumps to the boot loader program, which then loads the operating system 
+│   │   │          into memory. The operating system takes control of the computer from this point on.
+│   │   ├── Storing system configuration = The BIOS also allows users to store system configuration 
+│   │   │          settings in a non-volatile memory called CMOS. This memory can hold settings such 
+│   │   │          as date and time, boot order, password protection, and other system settings even 
+│   │   │          after the system is turned off.
+│   │   └── Updating the BIOS = The BIOS firmware can also be updated or flashed to provide new features 
+│   │              or fix known issues. BIOS updates are typically available from the computer manufacturer's 
+│   │              website and can be installed using a special tool provided by the manufacturer.
+│   ├── MBR(Master Boot Record) 
+│   │   ├── About: Located in the first sector of bootable disk
+│   │   │          Size = 512 bytes
+│   │   │          Contains Primary Boot Loader Info and Partition Table Info
+│   │   └── MBR validation check
+│   └── UEFI(Unified Extensible Firmware Interface)
+│       ├── About: Has user friendly, graphical user interface
+│       │           Also comes with "Secure Boot" feature which stops digitally unsigned drivers
+│       │           Gives the ability to access more than 2TB storage
+│       │           Uses GPT (GUID Partition Table) Partitioning scheme
+│       └── 
+└── Boot Configuration
+    ├── Time & Date 
+    ├── Boot Bevice Priority
+    ├── Password 
+    ├── Power Management 
+    ├── Virtualization
+    ├── Wake-on-LAN 
+    └── Monitoring
+
+CPU: Central Processing Unit = Executes Instructions
+├── Brands = Intel / AMD
+├── Clock Rate = Identifies the potential frequency (speed) of the CPU
+├── Clock Speed = Indicates actual speed of the CPU
+│   ├── External = The base clock of the motherboard. It is also known as the bus speed
+│   ├── Internal = The internal speed of the CPU
+│   └── Overclocking
+├── Characteristics
+│   ├── Cache Type/Size
+│   │           ┌─────────────┐
+│   │           │ Main Memory │
+│   │           └──────┬──────┘
+│   │   <─────┬────────┴───────────────> Bus
+│   │    ┌────┴─────┐
+│   │    │ L3 Cache │
+│   │    └────┬─────┘
+│   │    ┌────┴─────┐ ┌───────────┐
+│   │    │ L2 Cache ├─┤ L1i Cache │
+│   │    └────┬─────┘ └─────┬─────┘
+│   │   ┌─────┴─────┐  ┌────┴─────┐
+│   │   │ L1d Cache ├──┤ CPU Core │
+│   │   └───────────┘  └──────────┘
+│   │   
+│   ├── Hyperthreading = Allows CPU to accept and process two different sets of instructions
+│   ├── Multicore = Contains two or more cores
+│   ├── Architecture (32-bit/64-bit)
+│   ├── Virtualization = Allows a single physical system to run multiple virtual systems
+│   └── Integrated GPU
+├── Socket Types
+│   ├── ZIF Socket: Zero Insertion Force
+│   │   └── PGA: Pin Grid Array
+│   ├── LGA Socket: Land Grid Array
+│   ├── Intel Sockets
+│   │   ├── LGA 775
+│   │   ├── LGA 1155
+│   │   ├── LGA 1156
+│   │   └── LGA 1366
+│   └── AMD Sockets
+│       ├── ZIF 940
+│       ├── ZIF AM2
+│       ├── ZIF AM2+
+│       ├── ZIF AM3
+│       ├── ZIF AM+
+│       ├── ZIF FMI
+│       └── ZIF F
+└── Cooling = Since electricity causes heat due to friction, which melts metal and electronics 
+    │         components. So it is important to dissipate heat to prevent damage.
+    ├── Heat Sink
+    ├── Fans 
+    ├── Thermal Compound
+    └── Liquid Based
+
+Memory
+├── Memory Controller = It is the go between memory and the CPU. It helps to store and retrive data
+│       from the memory. It used to be within North Bridge, nowadays it usually built on CPU die.
+├── Types 
+│   ├── ROM: Read Only Memory = Non-Volatile
+│   └── RAM: Random Access Memory = Volatile
+│       ├── SRAM: Static RAM
+│       └── DRAM: Dynamic RAM
+│           ├── SIMM: Single In-Line Memory Module
+│           ├── DIMM: Dual In-Line Memory Module
+│           │   ├── SDRAM: Synchronous DRAM = 168-pins
+│           │   └── DDR: Double Data Rate 
+│           │       ├── DDR = 184-pins 
+│           │       ├── DDR2 = 240-pins
+│           │       ├── DDR3 = 240-pins
+│           │       ├── DDR4
+│           │       └── DDR5
+│           ├── SODIMM: Small Outline DIMM
+│           └── RDRAM: Rambus DRAM
+├── Memory Latency: Column Address Strobe (CAS) Latency = Latency between memory controller which requests 
+│       data and the data's availablity
+├── Multichannel Architecture
+│   ├── Single Channel = 64-bit
+│   ├── Dual Channel = 128-bit
+│   ├── Triple Channel = 192-bit
+│   └── Quadruple Channel = 256-bit
+├── Data Integrity
+│   ├── Single Sided vs Double Sided = Single-Sided has faster access speeds than double-sided
+│   ├── Parity vs Non-Parity = detects errors
+│   └── Error Correction Code (ECC) vs Non-ECC = corrects errors
+├── Registered Memory = offers a buffer
+└── PC Expansion Cards
+    ├── Sound Cards
+    ├── Video Cards
+    ├── Network Cards
+    ├── USB Cards
+    ├── Firewire Cards
+    ├── Thunderbolt Cards
+    ├── Storage Cards
+    ├── MODEM Cards
+    ├── Wireless/Cellular Cards
+    ├── TV Tuner Cards / Video Capture Cards
+    └── Riser Cards
+
+Storage
+├── Magnetic Storage Media
+│   ├── Floppy Disk Drives (FDD)
+│   │   ├── Data Cable = 34-pin
+│   │   ├── 1.44 MB storage
+│   │   └── Power Connector = Berg (mini)
+│   ├── Hard Disk Drives (HDD)
+│   │   ├── Rotational Speed = 7200 RPM or 5400 RPM (4200 RPM for laptops)
+│   │   ├── for PATA 
+│   │   │   ├── Transfer Rate = 133MB/s  
+│   │   │   ├── Data Cable = 40-pin 
+│   │   │   ├── 2 devices per cable
+│   │   │   └── Molex Power Connector 
+│   │   ├── for SATA 
+│   │   │   ├── Transfer Rate = 300MB/s 
+│   │   │   ├── Data Cable = 7-pin 
+│   │   │   ├── 1 device per cable
+│   │   │   └── SATA Power Connector 
+│   │   └── Small Computer System Interface (SCSI) = It a power connector found in older systems
+│   └── Tape Drives 
+│       ├── Connections  
+│       │   ├── Internal = SCSI | PATA | SATA 
+│       │   └── External = USB | IEEE 1394
+│       └── Compressed data is stored  
+├── Optical Storage Media = Stored as microscopic indentations (lands and pits) and read by laser
+│   ├── Compact Disc (CD)
+│   │   ├── x = 150KB/s
+│   │   ├── Read Speed = 48x (7.2 MB/s)
+│   │   ├── Storage = 700MB
+│   │   └── Types 
+│   │       ├── CD-ROM = read only  
+│   │       ├── CD-R = read and write  
+│   │       │   └── Write Speed = 48x (7.2 MB/s) | 52x (7.8 MB/s)  
+│   │       └── CD-RW = read and rewrite 
+│   │           └── Write Speed = 24x (3.6 MB/s) | 32x (4.8 MB/s)  
+│   ├── Digital Versatile Disc (DVD)
+│   │   ├── x = 1.32 MB/s
+│   │   ├── Read Speed = 16x
+│   │   └── Types
+│   │       ├── DVD-5 = 1 side, 1 layer, 4.7 GB storage
+│   │       ├── DVD-9 = 1 side, 2 layers, 8.5 GB storage
+│   │       ├── DVD-10 = 2 sides, 2 layers, 9.4 GB storage
+│   │       ├── DVD-14 = 2 sides, 3 layers, 13.2 GB storage
+│   │       └── DVD-18 = 2 sides, 4 layers, 17 GB storage
+│   └── Blu-Ray Disc
+│       ├── x = 4.5 MB/s
+│       ├── Read Speed = 1x to 16x
+│       └── Types
+│           ├── Single-Layer Standerd-Disc = 25 GB
+│           ├── Dual-Layer Standerd-Disc = 50 GB 
+│           ├── Single-Layer Mini-Disc = 7.8 GB
+│           └── Dual-Layer Mini-Disc = 15.6 GB
+└── Solid-State Storage Media = Data written to non-volatile microchips or DRAM
+    ├── Solid State Drives (SSD) : SATA Data Connector and SATA Power Connector
+    ├── USB Flash Drives
+    ├── SD Cards
+    │   ├── micro SD Card = 15mm x 11mm
+    │   ├── mini SD Card = 21.5mm x 20mm
+    │   └── standerd SD Card = 32mm x 24mm
+    └── Compact Flash : Inbuilt ATA controller
+        ├── 3.3mm
+        └── 5mm
+
+1 byte = 8 bits
+bit is represented by 'b'
+byte is represented by 'B'
+
+1:00:30 male female

@@ -1,0 +1,47 @@
+Basics
+    Super + Enter	            open new terminal
+    - Super + w	                focus up
+    - Super + a	                focus left
+    - Super + r	                focus down
+    - Super + s	                focus right
+Super + a	focus parent
+Super + Space	toggle focus mode
+
+Moving windows
+    - Super + Shift + w	        move window up
+    - Super + Shift + a	        move window left
+    - Super + Shift + r	        move window down
+    - Super + Shift + s	        move window right
+
+Modifying windows
+    Super + f	                toggle fullscreen
+    Super + v	                split a window vertically
+    Super + h	                split a window horizontally
+    - Super + t	                transform mode (resize mode)
+
+Changing the container layout
+    - Super + Shift + d	        default
+    - Super + Shift + t	        tabbed
+
+Floating
+    Super + Shift + Space       toggle floating
+    Super + Left_click	        drag floating
+
+Using workspaces
+    Super + 0-9	                switch to another workspace
+    Super + Shift + 0-9	        move a window to another workspace
+
+Opening applications / Closing windows
+    - Super	                    open application launcher (dmenu)
+    - Super + q	                kill a window
+
+Restart / Exit
+Super + Shift + c	reload the configuration file
+Super + Shift + r	restart i3 inplace
+Super + Shift + e	exit i3
+
+==================================================== Extras
+Super + l                       lock screen (bindsym $mod+l exec i3lock)
+
+==================================================== remove
+Super + s	                    stacking

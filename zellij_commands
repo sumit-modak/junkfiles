@@ -1,0 +1,44 @@
+Clear - Clear the scrollback buffer of the focused pane
+CloseFocus - Close the focused pane
+CloseTab - Close the focused tab
+Detach - Detach from the current session, leaving it running in the background
+DumpScreen - Dump the contents of the focused pane, including its entire scrollback, to the specified file.
+EditScrollback - Edit the scrollback of the currently focused pane with the user's default editor.
+FocusNextPane - Change focus to the next pane (order not guaranteed)
+FocusPreviousPane - Change focus to the previous pane (order not guaranteed)
+GoToNextTab - Change focus to the next tab
+GoToPreviousTab - Change focus to the previous tab
+GoToTab - Change focus to a tab with a specific index
+HalfPageScrollDown - Scroll the focused pane half a page down
+HalfPageScrollUp - Scroll the focused pane half a page up
+LaunchOrFocusPlugin - Launch a plugin if it is not already loaded somewhere in the session, focus it if it is
+MoveFocus - Move focus in a specific direction
+MoveFocusOrTab - Move focus left or right, or to the next or previous tab if on screen edge
+MovePane - Move the position of the focused pane in the specific direction
+NextSwapLayout - Change the layout of the current tab (either tiled or floating) to the next one
+NewPane - Open a new pane (in the specified direction)
+NewTab - Open a new tab
+PageScrollDown - Scroll the focused pane one page down
+PageScrollUp - Scroll the focused pane one page up
+PreviousSwapLayout - Change the layout of the current tab (either tiled or floating) to the previous one
+Quit - Quit Zellij :(
+Resize - Resize the focused pane either in the specified direction or increase/decrease its size automatically
+Run - Run the specified command
+ScrollDown - Scroll the focused pane down 1 line
+ScrollToBottom - Scroll the focused pane completely down
+ScrollUp - Scroll the focused pane up 1 line
+ScrollToTop - Scroll the focused pane completely up
+Search - When searching, move to the next or previous search occurrence
+SearchToggleOption - Toggle various search options on/off
+SwitchToMode - Switch the current input mode
+ToggleActiveSyncTab - Toggle the syncing of input between all panes in the focused tab
+ToggleFloatingPanes - Show/hide floating panes; if none are open, one will be opened
+ToggleFocusFullscreen - Toggle the focused pane as fullscreen on/off
+ToggleMouseMode - Toggle mouse support on/off
+TogglePaneEmbedOrFloating - Float focused embedded pane or embed focused floating pane
+TogglePaneFrames - Show/hide the frames around panes (notice, these might have valuable UX info)
+ToggleTab - Change the tab focus
+UndoRenamePane - Undo a rename pane operation currently in progress (reverting to the previous name)
+UndoRenameTab - Undo a rename tab operation currently in progress (reverting to the previous name)
+Write - Write bytes to the active pane
+WriteChars - Write a string of characters to the active pane

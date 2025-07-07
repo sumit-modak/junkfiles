@@ -1,0 +1,36 @@
+-----------------------------------------------cp
+ios_base::sync_with_studio(false);
+cin.tie(NULL);
+
+------------------------------------------------------------stl_library
+sequencial(array, vector, deque, list, forward list)
+    // implemented using red black trees
+associative(set, map, multiset, multimap)
+    // implemented using hashing
+unordered associative(unordered_set, unordered_map, unordered_multiset, unordered_multimap)
+adapters(stack, queue, priority_queue)
+
+set                    red black trees
+unordered_set          hash tables
+map                    red black trees
+unordered_map          hash tables
+
+vectors
+list, forward_list, stack, queue, priority_queue, deque
+pair<first, second>
+
+----------------------------------------functions
+min
+max
+min_element
+max_element
+sort
+upper_bound
+lower_bound
+sum->accumulate
+count
+find
+reverse
+all_of
+any_of
+none_of
